@@ -1,8 +1,8 @@
-# Scrabble
-Höfundar: Ómar og Þorsteinn
+### Scrabble
+##Höfundar: Ómar og Þorsteinn
 
-Pakkar notaðir:
-time
-rich (pip install rich)
+#Pakkar notaðir:
+#time
+#rich (pip install rich)
 
-Keyrsluskrá: scrabble_main.py
+##Keyrsluskrá: scrabble_main.py
