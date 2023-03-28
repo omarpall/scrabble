@@ -1,8 +1,19 @@
-### Scrabble
-##Höfundar: Ómar og Þorsteinn
 
-#Pakkar notaðir:
-#time
-#rich (pip install rich)
+# Scrabble
 
-##Keyrsluskrá: scrabble_main.py
+Skrafl smíðað í python
+
+## Höfundar
+
+Ómar og Þorsteinn
+
+
+## Installation
+
+Það þarf að ná í rich pakkann https://pypi.org/project/rich/
+
+```bash
+  npm install rich
+
+```
+    
