@@ -17,3 +17,4 @@ Skrafl smíðað í python
 
 ```
     
+![alt text](https://github.com/omarpall/scrabble/blob/main/scrabble.png?raw=true)
