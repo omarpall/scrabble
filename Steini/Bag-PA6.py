@@ -14,22 +14,28 @@ class Bag:
         return drawn
 
     def legal_trade(self, letters, player_hand):
+        player_letters = player_hand
         for letter in letters:
-            if letter in player_hand:
-                player_hand.remove(letter)
-                print(player_hand)
+            if letter in player_letters:
+                player_letters.remove(letter)
+                print(player_letters)
             else:
                 return False
-        return True
+        return True, player_letters
     
-    def trade(self,letters, player_letters):
-        new_player_hand = 
-        for letter in player_letters:
+    def trade(self,letters, player_hand):
+        legal, player_letters = self.legal_trade(letters, player_hand)
+        if legal == True:
+            new_player_hand = self.draw(len(letters))
+            for letter in player_hand:
+                self.status[letter] += 1
+            player_hand = player_letters + new_player_hand
+        return player_hand
 
 
 def main():
     b = Bag()
-    trade = b.trade("ABCD", ["A","B","C","D"])
+    trade = b.trade("BCD", ["A","B","C","D"])
     print(trade)
 
 
