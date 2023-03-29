@@ -18,7 +18,6 @@ class Bag:
         for letter in letters:
             if letter in player_letters:
                 player_letters.remove(letter)
-                print(player_letters)
             else:
                 return False
         return True, player_letters
